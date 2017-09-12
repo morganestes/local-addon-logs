@@ -12,6 +12,10 @@
     width: 100%;
 }
 
+.logs-container .logview h4 {
+    margin-bottom: .5em;
+ }
+ 
 .logs-container .logview-monitor {
     position: relative;
     top: 0;
