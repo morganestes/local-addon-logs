@@ -1,8 +1,8 @@
 {
-  "name": "pressmatic-addon-logs",
-  "productName": "Log Viewer",
-  "version": "1.0.1",
-  "author": "Section214, LLC",
+  "name": "local-addon-logs",
+  "productName": "Local by Flywheel Log Viewer",
+  "version": "1.1.0",
+  "author": "Morgan Estes",
   "contributors": [
     {
       "name": "Daniel J Griffiths",
@@ -10,23 +10,32 @@
     }
   ],
   "keywords": [
-    "pressmatic-addon"
+    "pressmatic-addon",
+    "local-addon",
+    "logviewer"
   ],
-  "description": "View log files for your Pressmatic sites.",
+  "description": "View log files for your Local by Flywheel sites.",
   "renderer": "lib/renderer.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/section214/pressmatic-addon-logs"
+    "url": "https://github.com/morganestes/pressmatic-addon-logs.git"
   },
   "bugs": {
-    "url": "https://github.com/section214/pressmatic-addon-logs/issues"
+    "url": "https://github.com/morganestes/pressmatic-addon-logs/issues"
   },
   "license": "MIT",
+  "scripts": {
+    "version": "auto-changelog --package; git add CHANGELOG.md"
+  },
   "dependencies": {
     "file-tail": "^0.3.0",
     "fs-reader": "^1.0.1"
   },
+  "devDependencies": {
+    "auto-changelog": "*"
+  },
   "engines": {
-    "pressmatic": "^1.1.0"
+    "pressmatic": "^1.1.0",
+    "local-by-flywheel": "^2.0.0"
   }
 }
