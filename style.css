@@ -8,14 +8,15 @@
     top: 0;
     display: block;
     bottom: 53px;
-    padding: 15px 0;
+    padding: 80px 0 0 30px;
     width: 100%;
+    height: 100%;
 }
 
 .logs-container .logview h4 {
-    margin-bottom: .5em;
- }
- 
+    display: none;
+}
+
 .logs-container .logview-monitor {
     position: relative;
     top: 0;
@@ -24,20 +25,23 @@
     height: 100%;
     overflow-y: auto;
     font-family: monospace;
-    -ms-user-select: text;
-    -moz-user-select: text;
-    -webkit-user-select: text;
     user-select: text;
 }
 
 .logs-container .toolbar-footer {
-    bottom: 0;
+    top: 0;
     position: absolute;
     width: 100%;
-    height: 43px;
-    padding: 10px 15px;
+    height: 50px;
     background: #f6f6f6;
     border-color: #ccc;
+    line-height: 50px;
+    padding: 0 30px;
+}
+
+.logs-container .toolbar-footer button[disabled], .logs-container .toolbar-footer .button[disabled] {
+    color: #262727;
+    opacity: 1;
 }
 
 .logs-container .toolbar-title {

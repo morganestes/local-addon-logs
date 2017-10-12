@@ -8,7 +8,7 @@ Addon for [Local by Flywheel](https://local.getflywheel.com) to view log files f
 
 ### Downloading a Release
 
-1. Download the [latest release](https://github.com/morganestes/local-addon-logs/releases)
+1. Download the [latest release](https://github.com/artifex404/local-addon-logs)
 2. Go to Settings » Addons inside Local (2.0.0 or newer) and click on Install Addon
 3. Browse to the downloaded release
 4. Check the checkbox by the Logs addon to enable it
@@ -16,15 +16,10 @@ Addon for [Local by Flywheel](https://local.getflywheel.com) to view log files f
 
 ### Cloning
 
-Place the repository into the following directory depending on your platform:
-
+1. Place the repository into the following directory depending on your platform:
 - macOS: `~/Library/Application Support/Local by Flywheel/addons`
-
-## Developing
-
-### Pressmatic Addon API
-
-This addon interfaces with Local using the [Local Addon API](https://github.com/getflywheel/local-docs-addon-api).
+2. Restart Local
+3. Check the checkbox by the Logs addon to enable it
 
 ## License
 
